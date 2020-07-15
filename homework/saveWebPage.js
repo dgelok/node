@@ -8,16 +8,15 @@ const rl = readline.createInterface({
 
 rl.question("Domain name: ", (domain)=>{
     rl.question("Output file: ", (outFile)=>{
-        // do stuff
-        
+        // retrieve info from domain
         dns.lookup(domain, (error, answer)=>{
             if (error) {
                 console.log(`Error in retrieving ${domain}`);
                 return;
             }
-            console.log(`IP Address: ${answer}`)
+            
+            // write-to-file functionality here
         })
         rl.close();
     })
-    
 })
