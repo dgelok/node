@@ -1,0 +1,26 @@
+[{
+    "name": "Snowball",
+    "description": "",
+    "imgURL": "../images/snowball.jpg"
+},
+{
+    "name": "Handsome Phil",
+    "description": "",
+    "imgURL": "../images/probiscusMonkey.jpg"
+},
+{
+    "name": "Scoopy-poo",
+    "description": "",
+    "imgURL": "../images/turkey-vulture.jpg"
+},
+{
+    "name": "",
+    "description": "",
+    "imgURL": "../images/monkfish.jpg"
+},
+{
+    "name": "Mr. Giggles",
+    "description": "",
+    "imgURL": "../images/batfish.jpg"
+}
+]
