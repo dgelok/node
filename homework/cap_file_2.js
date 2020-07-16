@@ -16,7 +16,7 @@ rl.question("Input file: ", (inFile)=>{
             var allCaps = contents.toUpperCase();
             fs.writeFile(outFile, allCaps, (error)=>{
               if (error) {
-                console.error(error.message);
+                console.log("THAT DIDN'T WORK, SHAME ON YOUR FAMILY");
                 return;
               }
               console.log('File Saved: ', outFile);

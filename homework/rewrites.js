@@ -17,3 +17,15 @@ function greeting(person, callback) {
 }
 
 
+add = (x,y) => {
+    return x + y
+}
+
+subtract = (x, y) => {
+    return x - y
+}
+
+
+calc = ((x, y, operation) => {
+    return calc(x.y)
+})
