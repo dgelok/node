@@ -1,0 +1,20 @@
+* {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("/images/background3.png");
+    height: 500px;
+    
+        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
