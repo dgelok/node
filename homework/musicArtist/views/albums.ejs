@@ -11,13 +11,13 @@
 
     <% albums.forEach(albumObj => { %>
      
-    <div class="p-5 d-flex justify-content-start">
-      <div class="col-4 d-flex align-items-center">
+    <div class="row p-5 d-flex justify-content-start">
+      <div class="col-12 col-lg-4 d-flex align-items-center">
         <div>
           <img class="border-dark rounded-lg" width="300px" src=" <%= albumObj.artwork %> " alt="">
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-lg-6 mt-2">
         <h2 class='m-2 display-5'> <%= albumObj.title %>  - <%= albumObj.year %> </h2>
         <a target="_blank" href="<%= albumObj.apple %>"><i class="fa fa-apple fa-lg pr-3 pl-3" aria-hidden="true"></i></a>
         <a target="_blank" href="<%= albumObj.spotify %>"><i class="fa fa-spotify fa-lg pr-3 pl-3 pb-5" aria-hidden="true"></i></a>
